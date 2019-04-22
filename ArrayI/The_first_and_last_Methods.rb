@@ -16,4 +16,4 @@ end
 
 p custom_first(numbers, 3)
 p custom_last(numbers)
-p custom_last(numbers, 5)
+p custom_last(numbers, 1)

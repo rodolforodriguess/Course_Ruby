@@ -9,4 +9,4 @@ p last_item
 test = [11, 13, 15, 17, 19]
 
 two_items = test.pop(2)
-p test
+p two_items

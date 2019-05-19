@@ -1,7 +1,7 @@
 names = ["Bob", "Moe", "Joe"]
 registrations = [true, false, true]
 
-#p names.zip(registrations)
+p names.zip(registrations)
 #p [1, 2, 3].zip([4, 5, 6], ["A", "B", "C"])
 
 def custom_zip(arr1, arr2)

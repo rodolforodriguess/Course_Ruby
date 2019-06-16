@@ -1,8 +1,13 @@
+PATH = File.dirname(__FILE__)
+
 puts "This is in the beginning"
-if File.exist?("end.rb")
-  load "end.rb"
+if File.exist?(File.join(PATH, "end.rb"))
+  load(File.join(PATH, "end.rb"))
 end
 
 puts "Alright, that was successful."
 
-load "end.rb"
+#STDOUT.sync = STDERR.sync = true
+# PATH = File.dirname(__FILE__)
+#
+# load(File.join(PATH,"end.rb"))

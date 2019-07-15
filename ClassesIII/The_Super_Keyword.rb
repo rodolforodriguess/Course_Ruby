@@ -6,7 +6,11 @@ class Car
     @maker = maker
   end
 
-  def drive
+  def drive1
+    "Room! Room!"
+  end
+
+  def drive2
     "Room! Room!"
   end
 end
